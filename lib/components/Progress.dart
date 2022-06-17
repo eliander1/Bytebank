@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Progress extends StatelessWidget {
   final String message;
 
-  Progress({ this.message = 'Loading'} );
+  Progress({this.message = 'Loading'});
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +22,19 @@ class Progress extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+class ProgressView extends StatelessWidget {
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('New transaction'),
+      ),
+      body: Progress(message: 'Sending...'),
     );
   }
 }

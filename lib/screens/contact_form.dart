@@ -1,8 +1,9 @@
+import 'package:alura_2/components/Container.dart';
 import 'package:alura_2/database/DAO/contact_DAO.dart';
 import 'package:flutter/material.dart';
-
-import '../components/Progress.dart';
 import '../models/contact.dart';
+
+
 
 class ContactForm extends StatefulWidget {
   @override
