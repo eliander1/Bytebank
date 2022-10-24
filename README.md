@@ -1,6 +1,6 @@
 # Bytebank com BLoC
 
 
-projeto realizado no curso de BLoC da Alura.
+project carried out to learn BLOC
 
 Mais detalhes em breve.
